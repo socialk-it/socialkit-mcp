@@ -1,0 +1,21 @@
+{
+  "name": "socialkit-mcp",
+  "version": "1.0.0",
+  "description": "Draft, schedule and publish posts on 11 social networks and read analytics from Gemini CLI, through SocialKit.",
+  "settings": [
+    {
+      "name": "SocialKit personal key",
+      "description": "Create it at app.socialk.it, user menu, API.",
+      "envVar": "SOCIALKIT_KEY",
+      "sensitive": true
+    }
+  ],
+  "mcpServers": {
+    "socialkit": {
+      "httpUrl": "https://app.socialk.it/core/mcp",
+      "headers": {
+        "Authorization": "Bearer $SOCIALKIT_KEY"
+      }
+    }
+  }
+}

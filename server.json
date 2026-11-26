@@ -1,0 +1,34 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "it.socialk/socialkit",
+  "title": "SocialKit (socialk.it)",
+  "description": "Draft, schedule and publish posts on X, LinkedIn, Instagram, TikTok, YouTube and 6 more networks.",
+  "repository": {
+    "url": "https://github.com/socialk-it/socialkit-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "websiteUrl": "https://socialk.it/en/mcp",
+  "icons": [
+    {
+      "src": "https://socialk.it/favicon/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    },
+    {
+      "src": "https://socialk.it/favicon/web-app-manifest-512x512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.socialk.it/core/mcp"
+    }
+  ]
+}
