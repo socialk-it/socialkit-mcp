@@ -1,5 +1,6 @@
 {
   "name": "socialkit",
+  "displayName": "SocialKit",
   "version": "1.0.0",
   "description": "Draft, schedule and publish posts on 11 social networks and read analytics from Cursor, through the SocialKit MCP server.",
   "author": {
@@ -9,6 +10,7 @@
   "homepage": "https://socialk.it/en/mcp",
   "repository": "https://github.com/socialk-it/socialkit-mcp",
   "license": "MIT",
+  "logo": "assets/logo.png",
   "keywords": ["social-media", "scheduler", "mcp", "analytics", "publishing"],
-  "logo": "https://socialk.it/favicon/web-app-manifest-512x512.png"
+  "category": "integrations"
 }

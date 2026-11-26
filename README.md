@@ -75,7 +75,7 @@ Add to `~/.cursor/mcp.json` (or `.cursor/mcp.json` in a project) with a personal
 }
 ```
 
-Sign-in in the browser from Cursor is not confirmed yet. The key is the sure way.
+Or leave out `headers`: Cursor then shows **Sign In** next to SocialKit in its MCP settings, and you allow access in the browser. Installing this repository as a Cursor plugin uses that sign-in.
 
 ### Gemini CLI
 
